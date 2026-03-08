@@ -239,4 +239,5 @@ model.fit(X_train, y_train, epochs=20, batch_size=64)
 pred = model.predict(X_test)
 acc = np.mean(np.argmax(pred, axis=1) == np.argmax(y_test, axis=1))
 
+
 print("Accuracy:", acc)
